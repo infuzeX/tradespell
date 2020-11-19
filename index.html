@@ -7,11 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Xamin - Data Science & Analytics HTML5 Template</title>
+    <link rel="javascript" href="app.js">
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/favicon.ico">
 
+    
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <!-- Fontawesome Fonts -->
     <link rel="stylesheet" href="css/all.min.css">
     <!-- ionicons CSS -->
@@ -680,11 +693,79 @@
               </section>
               
             <!--  -->
-            
-                
-              
-
-
+            <div class="demo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="testimonial-slider" class="owl-carousel">
+                                <div class="testimonial">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-icon">
+                                            <i class="fa fa-quote-left"></i>
+                                        </div>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                        </p>
+                                    </div>
+                                    <h3 class="title">williamson</h3>
+                                    <span class="post">Web Developer</span>
+                                </div>
+             
+                                <div class="testimonial">
+                                    <div class="testimonial-content">
+                                        <div class="testimonial-icon">
+                                            <i class="fa fa-quote-left"></i>
+                                        </div>
+                                        <p class="description">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                        </p>
+                                    </div>
+                                    <h3 class="title">Kristina</h3>
+                                    <span class="post">Web Designer</span>
+                                </div>
+             
+                                <div class="testimonial">
+                                    <div class="testimonial-content"><div class="testimonial-icon">
+                                        <i class="fa fa-quote-left"></i>
+                                    </div>
+                                    <p class="description">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum dolor sit amet eros imperdiet, sit amet hendrerit nisi vehicula.
+                                    </p>
+                                </div>
+                                <h3 class="title">williamson</h3>
+                                <span class="post">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+         
+        
+           
+        
+        
+       
+         
+       <script>
+            $(document).ready(function(){
+            $("#testimonial-slider").owlCarousel({
+                items:3,
+                itemsDesktop:[1000,3],
+                itemsDesktopSmall:[980,2],
+                itemsTablet:[768,2],
+                itemsMobile:[650,1],
+                pagination:true,
+                navigation:false,
+                slideSpeed:1000,
+                autoPlay:true
+            });
+        });
+       </script>
+        
 
 
             <!--  -->
