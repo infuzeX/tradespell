@@ -2338,18 +2338,18 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
 /*****************************************************************************************/
 
 .effect {
-  animation: typing 4s steps(35);
+  animation: typing 5s steps(10);
   overflow: hidden;
   animation-iteration-count: 3;
-  font-size: 30px;
-  letter-spacing: 1px;
+  font-size: 23px;
+
   white-space: nowrap;
-  font-family: consolas;
+ 
   border-right: 4px solid black;
-  width: 36ch;
+  width: 25ch;
   color: black;
  
-  
+  font-weight: 900;
 }
 
 @keyframes typing {
@@ -2357,6 +2357,6 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
     width: 0ch;
   }
   100% {
-    width: 35ch;
+    width: 25ch;
   }
 }
