@@ -497,7 +497,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #22A39F;
+  color: #437EEB;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -510,7 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #0d5aeb;
   bottom: 0;
   left: 0;
 }
@@ -801,7 +801,7 @@ background-position: 100%;
 
 #testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: #22A39F; 
+  color: #437EEB; 
   margin: 0;
   font-family: 'Lato',sans-serif;
 }
