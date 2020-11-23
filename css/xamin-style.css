@@ -2408,3 +2408,8 @@ transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
   99% { background-color: transparent; }
   100%  { background-color: #ccc; }
 }
+
+/**********************************************************************/
+.navbar-custom { 
+  background-color: lightgreen; 
+} 
